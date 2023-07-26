@@ -13,13 +13,13 @@ The feature dataset (x) consists of four measurements for each sample:
 - Petal Length (cm)
 - Petal Width (cm)
 - Target
-- 
+
 The target dataset (y) contains the encoded species labels for each sample:
 
 - 0: setosa
 - 1: versicolor
 - 2: virginica
-- 
+
 # Model
 The SVM classifier is used with a linear kernel (kernel='linear') and regularization parameter C set to 1.0 (C=1.0)
 
