@@ -1,10 +1,11 @@
-Iris Flower Classification with SVM
+# Iris Flower Classification with SVM
+
 This project aims to classify iris flowers into three species: setosa, versicolor, and virginica based on their measurements (sepal length, sepal width, petal length, and petal width). The model is trained using Support Vector Machine (SVM), a popular machine learning algorithm for classification tasks.
 
-Dataset
+# Dataset
 The dataset used for this project is the famous Iris dataset, which is Provided by organization. The dataset contains 150 samples of iris flowers, each with four features and one target label (species).
 
-Features
+# Features
 The feature dataset (x) consists of four measurements for each sample:
 
 Sepal Length (cm)
@@ -17,10 +18,10 @@ The target dataset (y) contains the encoded species labels for each sample:
 0: setosa
 1: versicolor
 2: virginica
-Model
+# Model
 The SVM classifier is used with a linear kernel (kernel='linear') and regularization parameter C set to 1.0 (C=1.0)
 
-Evaluation
+# Evaluation
 The model's performance is evaluated on a test dataset using the following metrics:
 
 Accuracy: The proportion of correctly classified samples.
@@ -29,7 +30,7 @@ Classification Report: Includes precision, recall, and F1-score for each class.
 
 Confusion Matrix: A matrix showing the count of true positives, false positives, true negatives, and false negatives for each class.
 
-Deployment
+# Deployment
 To deploy this project run use following important python libraries
 
 pandas (import pandas as pd):
@@ -51,7 +52,8 @@ There are two optional libraries that may be used for additional functionality:
 matplotlib: It can be used for data visualization. However, it is not explicitly used in the provided code.
 seaborn: It can be used for statistical data visualization. Similar to matplotlib, it is not used in the provided code.
 pip install pandas scikit-learn
-Installation
+
+# Installation
 Install my-project by using any python compailer
 
 Then install following python libraries
