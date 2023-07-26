@@ -71,7 +71,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 ```
-3. After importing dataset execute code which provide in repository
+3. Import Iris Dataset 
+4. After importing dataset execute code which provide in repository
 
 # Result
+
 The SVM model achieves high accuracy in classifying iris flowers into their respective species. The classification report and confusion matrix provide detailed performance metrics for each class.
