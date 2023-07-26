@@ -62,6 +62,7 @@ pip install pandas scikit-learn
 
 2. Then install following python libraries
 
+```bash
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -69,7 +70,8 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-Import Iris Dataset
+```
 3. After importing dataset execute code which provide in repository
-##Result
+
+# Result
 The SVM model achieves high accuracy in classifying iris flowers into their respective species. The classification report and confusion matrix provide detailed performance metrics for each class.
